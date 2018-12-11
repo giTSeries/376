@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Some Equations</title>
+
+        <link rel="stylesheet" src="styles.css"/>
+        <script src="scripts.js"></script>
+    </head>
+
+    <body>
+
+        <h1>Heres Some Equations</h1>
+        <h2>QuadForm</h2>
+        <form>
+            (a: <input type="text" id="aValue" name="aValue" />)X² +
+            (b: <input type="text" id="bValue" name="bValue" />)X +
+            (c: <input type="text" id="cValue" name="cValue" />)
+            <br />
+            <button type="button" onclick="quadForm()">Solve</button>
+        </form>
+        Result: <span id="result"></span><br/>
+        Result 2: <span id="result1"></span>
+        <br/>
+        <br/>
+        <h2>Volume</h2>
+        <form>
+            <input type="text" id="vValue" name="vValue" />^3
+            <br />
+            <button type="button" onclick="volume()">Solve</button>
+
+
+        </form>
+
+        Result: <span id="resultV"></span><br/>
+        <br/>
+        <br/>
+        <h2>Triangle Area</h2>
+        <form>
+            <input type="text" id="baseValue" name="baseValue" />
+            <input type="text" id="heightValue" name="heightValue" />
+            <br />
+            <button type="button" onclick="triArea()">Solve</button>
+
+
+        </form>
+
+        Result: <span id="resultA"></span><br/>
+    </body>
+</html>
