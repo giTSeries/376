@@ -16,7 +16,7 @@ function quadForm() {
 function volume(){
     var vValue = parseInt(document.getElementById("vValue").value);
     var resultV = Math.pow(vValue,3);
-    document.getElementById("result1").innerHTML = resultV;
+    document.getElementById("resultV").innerHTML = resultV;
 }
 function triArea(){
     var baseValue = parseInt(document.getElementById("baseValue").value);
