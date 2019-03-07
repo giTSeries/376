@@ -1,0 +1,31 @@
+input,button{
+    font-family:Arial, sans-serif;
+    font-size: 14px;
+}
+.back{
+    fill:#52ceea;
+}
+#control{
+    text-align:center;
+    width:400px;
+    fill:black;
+    font-family:Arial, sans-serif;
+    font-size: 18px;
+    text-anchor:middle;
+}
+#title{
+    text-align:center;
+    width:400px;
+}
+#line{
+    fill:black;
+}
+.spacer{
+    margin-left:30px;
+}
+.xo{
+    fill:red;
+    font-family:Arial, sans-serif;
+    font-size: 85px;
+    visibility:hidden;
+}
