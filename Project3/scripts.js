@@ -10,7 +10,7 @@ function quadForm() {
     var result = ((aValue*-1)+(Math.pow(Math.pow(bValue,2)-(4*aValue*cValue),1/2)))/(2*aValue);
     var result1 = ((aValue*-1)-(Math.pow(Math.pow(bValue,2)-(4*aValue*cValue),1/2)))/(2*aValue);
 
-    document.getElementById("result").innerHTML = result;
+
     document.getElementById("result1").innerHTML = result1;
 }
 function volume(){

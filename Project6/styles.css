@@ -1,0 +1,56 @@
+input,button{
+    font-family:Arial, sans-serif;
+    font-size: 14px;
+}
+.die {
+    fill:#ffffff;
+    stroke-width: 3;
+    stroke: #000000;
+}
+
+.pip {
+    stroke: #000000;
+    fill: #000000;
+    visibility: hidden;
+}
+#felt{
+    fill:#0cd620;
+}
+#control{
+    text-align:center;
+    width:500px;
+    fill:black;
+    font-family:Arial, sans-serif;
+    font-size: 18px;
+    text-anchor:middle;
+}
+#results{
+    fill:#ffffff;
+    font-family:Arial, sans-serif;
+    font-size: 24px;
+    text-anchor:middle;
+}
+#message{
+    fill: #ff0000;
+    font-family:Arial, sans-serif;
+    font-size: 18px;
+    text-anchor:middle;
+}
+#point{
+    fill:black;
+    font-family:Arial, sans-serif;
+    font-size: 24px;
+    text-anchor:middle;
+}
+#puck{
+    fill:white;
+    stroke:black;
+    stroke-width:3;
+    text-anchor:middle;
+}
+#winnings{
+    
+}
+.spacer{
+    margin-left:30px;
+}
